@@ -4,30 +4,152 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Maria Zha-Zha Cornillez Bio | Video Editor</title>
-  <meta name="description" content="Video editing portfolio of Maria Zha-Zha Cornillez Bio: short-form social and long-form YouTube editing.">
+  <meta name="description" content="Video editing portfolio of Maria Zha-Zha Cornillez Bio: short-form reels for Australian personal brands (TikTok, Reels, Shorts), plus long-form YouTube editing.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#work">Skip to selected work</a>
+  <a class="skip-link" href="#shortform">Skip to short-form reels</a>
 
   <header class="hero">
     <div class="wrap">
       <p class="eyebrow">Video Editing Portfolio</p>
       <h1>Maria Zha-Zha Cornillez Bio</h1>
-      <p class="role">Video Editor | Short-Form Social &amp; Long-Form YouTube</p>
+      <p class="role">Video Editor &amp; Content Coordinator | Short-Form for Personal Brands</p>
       <p class="intro">
-        I have several years of hands-on experience editing videos manually in CapCut.
-        Each sample below lists its runtime, format and a clear credit line,
-        so you can see the format and my role at a glance.
+        I edit short-form video for TikTok, Instagram Reels and YouTube Shorts, built to ship
+        25–30 videos a week for Australian founders and small brands without losing the hook.
+        I have several years of hands-on editing in CapCut. Every sample below lists its runtime,
+        format and a clear credit line, so you can see the format and my role at a glance.
       </p>
-      <a class="btn" href="#work">Watch selected work</a>
+      <a class="btn" href="#shortform">Watch the short-form reels</a>
+      <a class="btn btn--ghost" href="#week">How I work</a>
     </div>
   </header>
 
   <main>
-    <section id="work" class="section" aria-labelledby="work-title" tabindex="-1">
+    <section id="shortform" class="section" aria-labelledby="shortform-title" tabindex="-1">
       <div class="wrap">
-        <h2 id="work-title">Selected work</h2>
+        <h2 id="shortform-title">Short-form reels for Australian personal brands</h2>
+        <p class="lede">
+          Three reels built for the jobs a personal-brand content team does every week: a founder
+          story that earns a follow, a product that feels worth its price, and a beat cut built to
+          be rewatched. Every file is delivered in 9:16 and 4:5 at −14 LUFS, with captions kept clear
+          of the platform buttons.
+        </p>
+
+        <!-- Showreel: all three reels with title cards -->
+        <article class="sample sample--reel" aria-labelledby="sr-title">
+          <div class="player player--tall">
+            <video id="video-showreel" controls preload="metadata" playsinline
+                   poster="media/shortform-showreel-poster.jpg" aria-describedby="sr-desc">
+              <source src="media/shortform-showreel.mp4" type="video/mp4">
+              Your browser cannot play this video. <a href="media/shortform-showreel.mp4">Download the MP4</a>.
+            </video>
+          </div>
+          <div class="sample-body">
+            <p class="tag">Showreel <span class="badge">AI-assisted production</span></p>
+            <h3 id="sr-title">Short-Form Showreel</h3>
+            <dl class="specs">
+              <div><dt>Runtime</dt><dd>1:14</dd></div>
+              <div><dt>Aspect ratio</dt><dd>9:16 vertical</dd></div>
+              <div><dt>Loudness</dt><dd>−14 LUFS</dd></div>
+            </dl>
+            <p id="sr-desc">
+              All three reels in one run, each introduced by a title card that names the brief and the
+              format. Start here if you only have a minute.
+            </p>
+            <div class="jumps" role="group" aria-label="Jump to a reel in the showreel">
+              <span class="jumps-label">Jump to:</span>
+              <button type="button" class="jump" data-video="video-showreel" data-time="2">0:02 Founder</button>
+              <button type="button" class="jump" data-video="video-showreel" data-time="32.2">0:32 Product</button>
+              <button type="button" class="jump" data-video="video-showreel" data-time="54.2">0:54 Dynamic</button>
+            </div>
+          </div>
+        </article>
+
+        <div class="reels-grid">
+          <article class="sample" aria-labelledby="r1-title">
+            <div class="player player--tall">
+              <video id="video-gully" controls preload="metadata" playsinline
+                     poster="media/reel-gully-ceramics-poster.jpg" aria-describedby="r1-desc">
+                <source src="media/reel-gully-ceramics.mp4" type="video/mp4">
+                Your browser cannot play this video. <a href="media/reel-gully-ceramics.mp4">Download the MP4</a>.
+              </video>
+            </div>
+            <div class="sample-body">
+              <p class="tag">Founder personal brand</p>
+              <h3 id="r1-title">Gully Ceramics</h3>
+              <dl class="specs">
+                <div><dt>Runtime</dt><dd>0:28</dd></div>
+                <div><dt>Format</dt><dd>9:16 · 4:5</dd></div>
+              </dl>
+              <p id="r1-desc">
+                A potter's three hard-won lessons. The edit is cut line by line to the narrator, so each
+                shot and caption lands with the words; numbered lessons and a weekly-series call to action
+                build a reason to follow.
+              </p>
+            </div>
+          </article>
+
+          <article class="sample" aria-labelledby="r2-title">
+            <div class="player player--tall">
+              <video id="video-ochre" controls preload="metadata" playsinline
+                     poster="media/reel-ochre-bloom-poster.jpg" aria-describedby="r2-desc">
+                <source src="media/reel-ochre-bloom.mp4" type="video/mp4">
+                Your browser cannot play this video. <a href="media/reel-ochre-bloom.mp4">Download the MP4</a>.
+              </video>
+            </div>
+            <div class="sample-body">
+              <p class="tag">Premium product</p>
+              <h3 id="r2-title">Ochre &amp; Bloom</h3>
+              <dl class="specs">
+                <div><dt>Runtime</dt><dd>0:20</dd></div>
+                <div><dt>Format</dt><dd>9:16 · 4:5 · 1:1</dd></div>
+              </dl>
+              <p id="r2-desc">
+                A Kakadu plum night serum shown with restraint: a cut every two beats at 75 BPM, one warm
+                grade across footage from three shoots, serif captions, a soft voiceover and
+                cosmetic-safe wording.
+              </p>
+            </div>
+          </article>
+
+          <article class="sample" aria-labelledby="r3-title">
+            <div class="player player--tall">
+              <video id="video-paddock" controls preload="metadata" playsinline
+                     poster="media/reel-paddock-lane-poster.jpg" aria-describedby="r3-desc">
+                <source src="media/reel-paddock-lane.mp4" type="video/mp4">
+                Your browser cannot play this video. <a href="media/reel-paddock-lane.mp4">Download the MP4</a>.
+              </video>
+            </div>
+            <div class="sample-body">
+              <p class="tag">Dynamic TikTok / Reels</p>
+              <h3 id="r3-title">Paddock Lane Café</h3>
+              <dl class="specs">
+                <div><dt>Runtime</dt><dd>0:15</dd></div>
+                <div><dt>Format</dt><dd>9:16 · 4:5</dd></div>
+              </dl>
+              <p id="r3-desc">
+                The 15-second flat white: 15 cuts on a 125 BPM grid, a speed ramp on the pour, a whip-pan
+                out of the tamp, and a sound effect on every action under an upbeat voiceover.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <p class="disclosure">
+          <strong>Disclosure:</strong> AI-assisted portfolio samples. The brands are fictional and the footage
+          is licensed Adobe Stock. Music, sound design and graphics are original. All three voiceovers use an
+          AI voice (“Mel”, ElevenLabs). I planned and directed each reel and reviewed every cut; they were
+          assembled with an AI-assisted FFmpeg and Python workflow rather than edited by hand in CapCut.
+        </p>
+        <p class="credit"><strong>Credit:</strong> Planned and directed by Maria Zha-Zha Cornillez Bio.</p>
+      </div>
+    </section>
+
+    <section id="work" class="section section--top" aria-labelledby="work-title" tabindex="-1">
+      <div class="wrap">
+        <h2 id="work-title">More editing work</h2>
 
         <!-- SAMPLE 1: Advocacy storytelling (featured) -->
         <article class="sample sample--featured" aria-labelledby="s1-title">
@@ -145,26 +267,48 @@
       </div>
     </section>
 
-    <section id="workflow" class="section section--alt" aria-labelledby="workflow-title">
+    <section id="week" class="section section--alt" aria-labelledby="week-title" tabindex="-1">
+      <div class="wrap">
+        <h2 id="week-title">How a week runs</h2>
+        <p class="lede">28 videos in five days, at about an hour each: 40 minutes editing, 10 on captions and post copy, 10 on checks and export.</p>
+        <ol class="week">
+          <li><h3>Monday</h3><p>Review last week's numbers (3-second hold, average watch, shares); write or approve scripts with three hook options each.</p></li>
+          <li><h3>Tuesday</h3><p>Footage in, renamed and logged; frame-rate, HDR and variable-frame-rate issues flagged before editing.</p></li>
+          <li class="week-edit"><h3>Wednesday</h3><p>Edit block one, one client at a time, from that client's template.</p></li>
+          <li class="week-edit"><h3>Thursday</h3><p>Edit block two; review copies with timecode go to clients before 3 pm.</p></li>
+          <li><h3>Friday</h3><p>Revisions, batch export and quality checks, post copy, then scheduling in each client's time zone.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="workflow" class="section" aria-labelledby="workflow-title">
       <div class="wrap">
         <h2 id="workflow-title">Delivery checklist</h2>
         <p class="lede">The checks a cut goes through before it is delivered for social or YouTube.</p>
         <ol class="steps">
           <li>
             <h3>Reframe for each format</h3>
-            <p>Recompose widescreen (16:9) and vertical (9:16) versions separately, so faces, products and key text stay in frame instead of being cropped by a centre cut.</p>
+            <p>Recompose vertical (9:16), feed (4:5) and widescreen (16:9) versions separately, so faces, products and key text stay in frame instead of being cropped by a centre cut.</p>
           </li>
           <li>
             <h3>Place captions in safe areas</h3>
-            <p>Keep captions and titles clear of each platform's interface, such as buttons and descriptions on vertical feeds, and readable on a phone screen.</p>
+            <p>Keep captions and titles clear of each platform's interface, such as buttons and descriptions on vertical feeds, and proofread them in Australian English.</p>
           </li>
           <li>
             <h3>Review the audio</h3>
-            <p>Listen through for clean dialogue, balanced music under voice, no clipping, and no abrupt cuts at the start or end.</p>
+            <p>Clean dialogue, music ducked under voice, −14 LUFS with true peak below −1 dBTP, no clipping and no dead air.</p>
           </li>
           <li>
             <h3>Check the export</h3>
-            <p>Confirm resolution, aspect ratio, frame rate and runtime, then watch the exported file itself before it is sent.</p>
+            <p>Confirm resolution, aspect ratio, a constant 25 fps (flicker-safe under Australia's 50 Hz lighting) and runtime, then watch the exported file itself before it is sent.</p>
+          </li>
+          <li>
+            <h3>Clear the music and claims</h3>
+            <p>Use commercially licensed music on business accounts, and have the client confirm any product or result claim before it goes in a caption.</p>
+          </li>
+          <li>
+            <h3>Label what needs labelling</h3>
+            <p>Mark paid partnerships with the platform toggle and an “Ad” label, and disclose AI voices or imagery in the post caption.</p>
           </li>
         </ol>
       </div>
@@ -173,7 +317,7 @@
 
   <footer class="footer">
     <div class="wrap">
-      <p>Maria Zha-Zha Cornillez Bio · Video Editor</p>
+      <p>Maria Zha-Zha Cornillez Bio · Video Editor &amp; Content Coordinator · Philippines (UTC+8), available for Australian business hours · <a href="https://linkedin.com/in/zha-zha-bio-56824a195" rel="noopener">LinkedIn</a></p>
     </div>
   </footer>
 
